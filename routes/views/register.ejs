@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/data/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/data/css/custom.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+    </script>
+    <script src="/data/js/bootstrap.js">
+    </script>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Loginapp</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="http://localhost:8080/">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Links<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://localhost:8080/">Home</a></li>
+            <li><a href="http://localhost:8080/users/login">Login</a></li>
+            <li><a href="http://localhost:8080/users/register">Sign Up</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://localhost:8080/users/register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="http://localhost:8080/users/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+    <img src="http://localhost:8080/data/icon/favicon.ico" alt="" >
+    <hr>
+    <form class="form-group" method="post" action"/users/register">
+    <label for="name">Name</label>
+      <input required type="text" name="name" id="" class="form-control" placeholder="Name" aria-describedby="helpId">    
+      <label for="userName">Username</label>
+      <input required type="text" name="userName" id="" class="form-control" placeholder="Username" aria-describedby="helpId">
+      <label for="email">Email</label>
+      <input required type="text" name="email" value="" class="form-control" placeholder="Email"> 
+      <label for="password">Password</label>
+      <input required type="text" name="password" id="" class="form-control" placeholder="Password" aria-describedby="helpId">
+      <label for="confirm">Confirm Password</label>
+      <input required type="text" name="confirm" id="" class="form-control" placeholder="Confirm Password" aria-describedby="helpId">
+      </br>
+      <input type="submit" name="" value="submit" class="btn btn-default">
+    </form>
+</div>
+<br>
+<br>
+<br>
+<hr>
+<footer class="footer">
+    <div class="container-fluid">
+        <p class="text-muted">2017 - Loginapp .</p>
+    </div>
+</footer>
+</body>
+</html>

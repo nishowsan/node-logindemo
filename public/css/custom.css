@@ -1,0 +1,22 @@
+.navbar{
+    border-radius: 0px;
+}
+.text-muted{
+    font-size: 16px;
+    font-weight: normal;
+}
+img{
+    position:relative;
+    left: 90%;
+    height: 60px;
+}
+.alert-info{
+    background-color: #fff;
+    border-color: #ccc;
+};
+.close{
+    font-weight: normal;
+}
+.new-btn{
+    width: 20px;
+}

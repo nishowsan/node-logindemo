@@ -1,0 +1,36 @@
+{
+  "name": "Loginapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon test.js",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "colors": "^1.1.2",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  },
+  "devDependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  }
+}
